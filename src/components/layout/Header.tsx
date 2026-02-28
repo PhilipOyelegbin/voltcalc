@@ -8,7 +8,7 @@ function Header() {
           <div className="bg-emerald-500 p-2 rounded-lg">
             <Zap className="w-5 h-5 text-white" />
           </div>
-          <h1 className="font-bold text-xl tracking-tight">VoltCalc</h1>
+          <h1 className="font-bold text-xl tracking-tight">ie-VoltCalc</h1>
         </div>
         <div className="text-xs font-medium text-slate-500 uppercase tracking-widest">
           Consumption Reader

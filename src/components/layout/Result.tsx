@@ -1,4 +1,4 @@
-import { CreditCard, History, TrendingUp } from "lucide-react";
+import { History, TrendingUp } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import type { TariffBand } from "../../interface";
 
@@ -89,12 +89,6 @@ function Result({
                     {result.band.hours}
                   </span>
                 </div>
-              </div>
-              <div className="pt-2">
-                <button className="w-full py-3 bg-emerald-50 text-emerald-700 rounded-xl text-sm font-semibold hover:bg-emerald-100 transition-colors flex items-center justify-center gap-2">
-                  <CreditCard className="w-4 h-4" />
-                  Proceed to Payment
-                </button>
               </div>
             </div>
           </motion.div>

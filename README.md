@@ -39,7 +39,7 @@ A clean and efficient tool to calculate electricity consumption and costs based 
 
 ## Deployment
 
-The app is deployed on netlify. To view it live, visit: 🔗 https://voltcalc.netlify.app
+The app is deployed on netlify. To view it live, visit: 🔗 https://voltcalc.philipoyelegbin.com.ng
 
 ---
 
