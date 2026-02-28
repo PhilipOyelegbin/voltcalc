@@ -1,0 +1,5 @@
+{
+  "name": "VoltCalc - Electricity Consumption Reader",
+  "description": "A clean and efficient tool to calculate electricity consumption and costs based on meter readings and tariff bands.",
+  "requestFramePermissions": []
+}
