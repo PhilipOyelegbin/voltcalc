@@ -84,7 +84,11 @@ function App() {
     }
 
     const consumption = current - previous;
-    const cost = consumption * selectedBand.rate;
+    //const cost = consumption * selectedBand.rate;
+    const cost = Math.round(
+      consumption * selectedBand.rate +
+        consumption * selectedBand.rate * (7.5 / 100),
+    );
 
     setResult({
       consumption,
