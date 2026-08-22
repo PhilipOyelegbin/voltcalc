@@ -14,7 +14,7 @@ const TARIFF_BANDS: TariffBand[] = [
   {
     id: "A",
     name: "Band A",
-    rate: 209.5,
+    rate: 209.50,
     description: "Premium Service",
     hours: "20+ hours/day",
   },
@@ -86,8 +86,7 @@ function App() {
     const consumption = current - previous;
     //const cost = consumption * selectedBand.rate;
     const cost = Math.round(
-      consumption * selectedBand.rate +
-        consumption * selectedBand.rate * (7.5 / 100),
+      consumption * (selectedBand.rate * (7.5 / 100)),
     );
 
     setResult({
